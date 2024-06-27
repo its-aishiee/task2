@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+   background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .container{
+    width: 1439px;
+height: 80px;
+gap: 0px;
+opacity: 0px;
+
+ }
+.main{
+    /* margin: 10%; */
+    margin-top: 12%;
+   padding: 5%;
+   width: 1000px;
+height: 700px;
+gap: 0px;
+border-radius: 24px 0px 0px 0px;
+opacity: 0px;
+margin-left: 117px;
+}
+.box1{
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7%;
+    padding-top: 34%;
+    border-top-left-radius: 5%; 
+    border-bottom-left-radius: 5%;
+}
+.box2{
+   width: 50%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding: 5%;
+    /* padding-left: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%; */  
+}
+.box2 form{
+    padding-top: 5%;
+}
+/* .box2 form input{
+    /* border-radius: 1000%; */
+*/
+.checkbox-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the container */
+}
+
+
+    .checkbox-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .checkbox-container input[type="checkbox"] {
+        margin-right: 5px; /* Adjust spacing between checkbox and label */
+    }
+
+    .form-control {
+        background-color: #000;
+        padding: 10px;
+        border-radius: 0px; /* Border radius for input fields */
+    }
+
+    /* try */
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .social-icon {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        border: 4px solid #000;
+        border-radius: 12px;
+        margin: 10px;
+        padding: 10px;
+        transition: transform 0.3s ease-in-out;
+        box-sizing: content-box;
+        text-align: center;
+        line-height: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .social-icon:hover {
+        transform: scale(1.1);
+    }
+    .social-icon{
+        border: 2px solid black;
+    }
+    
+    .social-icon a {
+        font-size: 30px;
+        align-self: center;
+        vertical-align: middle;
+        padding-top:  15px;        
+    }
+    
+    .google {
+        width: 50px;
+        height: 50px;
+        gap: 0px;
+        border-radius: 12px 0px 0px 0px;
+        border: 1.5px 0px 0px 0px;
+        opacity: 0px;
+        background: #FFE7D880;
+        /* try  */
+        
+     /* Google Red */
+        border: 1px solid black;
+        color: #fff;
+    }
+    
+    .facebook {
+        background-color: #3b5998; /* Facebook Blue */
+        border-color: #3b5998;
+        color: #fff;
+    }
+    
+    .android {
+        background-color: #1da1f2; /* Twitter Blue */
+        border-color: #1da1f2;
+        color: #fff;
+    }
+    .d-grid .btn{
+        background: #411900;
+
+    }
+
+    .d-grid {
+        display: grid;
+        padding-top: 1rem;
+    }
+     .d-grid .btn {
+        border-radius: 22px;
+        background: #411900;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+    }
+     .d-grid .btn:hover{
+        background-color:#411900 ;
+        color: white;
+     }
+    .form-control {
+        border-radius: 22px;
+        padding: 10px;
+        width: 100%;
+    }
